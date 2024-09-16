@@ -1,0 +1,53 @@
+body
+{
+    font: Georgia;
+    background-color: rgb(10, 64, 43);
+}
+
+header
+{
+    background-color: black;
+    color: white;
+
+    margin: -8px;
+    padding: .5%;
+}
+
+nav
+{
+    font-size: 90%;
+    text-align: center;
+}
+
+
+a:link
+{
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+a:visited
+{
+    text-decoration: none;
+    color: rgb(152, 53, 245);
+}
+
+a:hover
+{
+    text-decoration: underline 1px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a:active
+{
+    text-decoration: underline dotted 2px;
+    font-weight: bold;
+    font-style: italic;
+    color: crimson;
+}
+
+h2
+{
+    text-align: center;
+}
