@@ -1,0 +1,33 @@
+/*body
+{}*/
+
+section
+{
+    width: 32.5%;
+    margin-top: 1%;
+}
+
+.overview
+{
+    float: left;
+    width: 47.5%;
+    margin-right: .25%;
+}
+
+.pov
+{
+    float: right;
+    width: 47.5%;
+    margin-left: .25%;
+}
+
+/*#spirits
+{}*/
+
+#heart
+{
+    margin-left: .8%;
+}
+
+/*#deco
+{}*/

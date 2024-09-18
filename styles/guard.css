@@ -1,0 +1,22 @@
+/*body
+{}*/
+
+.overview
+{
+    float: left;
+    width: 48%;
+    margin-right: .25%;
+}
+
+.pov
+{
+    float: right;
+    width: 48%;
+    margin-left: .25%;
+}
+
+/*#jungle
+{}
+
+#rodeo
+{}*/

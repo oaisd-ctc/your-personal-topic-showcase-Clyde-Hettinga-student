@@ -1,6 +1,6 @@
 body
 {
-    font: Georgia;
+    font-family: Georgia, serif;
     background-color: rgb(10, 64, 43);
 }
 
@@ -17,6 +17,27 @@ nav
 {
     font-size: 105%;
     text-align: center;
+    padding: .25%;
+}
+
+section
+{
+    border: 3px solid white;
+    border-radius: 10px;
+
+    width: 49.25%;
+    margin-top: 1%;
+}
+
+div
+{
+    background: rgba(255, 255, 255, .2);
+    
+    border: 2px solid black;
+    border-radius: 5px;
+
+    margin: .75%;
+    padding: .25%;
 }
 
 
@@ -55,5 +76,44 @@ h1
 
 h2
 {
+    font-variant: small-caps;
     text-align: center;
+    margin: 1%;
+}
+
+h3
+{
+    text-align: center;
+    margin: 2%;
+}
+
+p
+{
+    line-height: 0%;
+}
+
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.show
+{
+    border: none;
+    border-radius: 7px 7px 0px 0px;
+    margin: 0;
+}
+
+.theme, .highlights
+{
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0% 2.5%;
 }
