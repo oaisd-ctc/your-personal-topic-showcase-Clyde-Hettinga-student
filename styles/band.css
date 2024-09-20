@@ -2,6 +2,7 @@ body
 {
     background-image: url(../images/bandlogo.png);
     background-size: cover;
+    background-position: center;
 }
 
 section
@@ -10,24 +11,16 @@ section
     margin-top: 1%;
 }
 
-.overview
+.vid
 {
-    float: left;
-    width: 47.5%;
-    margin-right: .25%;
-}
-
-.pov
-{
-    float: right;
-    width: 47.5%;
-    margin-left: .25%;
+    text-align: center;
 }
 
 #spirits
 {
     background-image: url(../images/spiritsbanner.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #heart
@@ -35,10 +28,12 @@ section
     margin-left: .8%;
     background-image: url(../images/heartbanner.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #deco
 {
     background-image: url(../images/decobanner.jpg);
     background-size: cover;
+    background-position: center;
 }

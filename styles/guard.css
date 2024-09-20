@@ -2,30 +2,19 @@ body
 {
     background-image: url(../images/guardlogo.png);
     background-size: cover;
-}
-
-.overview
-{
-    float: left;
-    width: 48%;
-    margin-right: .25%;
-}
-
-.pov
-{
-    float: right;
-    width: 48%;
-    margin-left: .25%;
+    background-position: center;
 }
 
 #jungle
 {
     background-image: url(../images/junglebanner.png);
     background-size: cover;
+    background-position: center;
 }
 
 #rodeo
 {
     background-image: url(../images/rodeobanner.png);
     background-size: cover;
+    background-position: center;
 }

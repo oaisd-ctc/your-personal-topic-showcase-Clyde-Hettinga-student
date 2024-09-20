@@ -50,7 +50,7 @@ aside
 
 div
 {
-    background: rgba(255, 255, 255, .5);
+    background: rgba(255, 255, 255, .6);
     
     border: 2px solid black;
     border-radius: 5px;
@@ -112,9 +112,9 @@ h3
     margin: 2%;
 }
 
-p:not(.disc)
+p:not(aside), li
 {
-    line-height: 0%;
+    font-size: 90%;
 }
 
 
@@ -126,15 +126,6 @@ p:not(.disc)
 .right
 {
     float: right;
-}
-
-.vid
-{
-    text-align: center;
-    width: 96.5%;
-    float: left;
-    margin: 1%;
-    padding: .5%;
 }
 
 .show
@@ -156,10 +147,12 @@ p:not(.disc)
 {
     background-image: url(../images/bandlogo.png);
     background-size: cover;
+    background-position: center;
 }
 
 #guard
 {
     background-image: url(../images/guardlogo.jpg);
     background-size: cover;
+    background-position: center;
 }
