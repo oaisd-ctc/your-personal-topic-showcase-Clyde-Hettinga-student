@@ -4,7 +4,7 @@ body
     background-color: rgb(10, 64, 43);
 }
 
-header
+header/*, footer*/
 {
     background-color: black;
     color: white;
@@ -29,6 +29,25 @@ section
     margin-top: 1%;
 }
 
+aside
+{
+    background-color: rgb(30, 192, 129);
+    color: rgb(10, 64, 43);
+    
+    border: 3px solid black;
+    border-radius: 7px;
+
+    text-align: center;
+    width: 75%;
+    
+    float: left;
+
+    margin: 1.5% 12.5%;
+    padding: .25% .75%;
+
+    line-height: 75%;
+}
+
 div
 {
     background: rgba(255, 255, 255, .2);
@@ -37,6 +56,12 @@ div
     border-radius: 5px;
 
     margin: .75%;
+    padding: .25%;
+}
+
+iframe
+{
+    margin: auto;
     padding: .25%;
 }
 
@@ -87,10 +112,15 @@ h3
     margin: 2%;
 }
 
-p
+p:not(.disc)
 {
     line-height: 0%;
 }
+
+/*img
+{
+    opacity: .3;
+}*/
 
 
 .left
@@ -101,6 +131,15 @@ p
 .right
 {
     float: right;
+}
+
+.vid
+{
+    text-align: center;
+    width: 96.5%;
+    float: left;
+    margin: 1%;
+    padding: .5%;
 }
 
 .show
@@ -117,3 +156,15 @@ p
     margin: 0;
     padding: 0% 2.5%;
 }
+
+/*#band
+{
+    background-image: url(images/bandlogo.png);
+    background-size: cover;
+}
+
+#guard
+{
+    background-image: url(images/guardlogo.png);
+    background-size: cover;
+}*/

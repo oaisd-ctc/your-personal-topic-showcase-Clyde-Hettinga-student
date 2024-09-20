@@ -1,5 +1,8 @@
 /*body
-{}*/
+{
+    background-image: url(../images/bandlogo.png);
+    background-size: cover;
+}*/
 
 section
 {
@@ -22,12 +25,20 @@ section
 }
 
 /*#spirits
-{}*/
+{
+    background-image: url(../images/spiritsbanner.png);
+    background-size: cover;
+}*/
 
 #heart
 {
     margin-left: .8%;
+    /*background-image: url(../images/heartbanner.png);
+    background-size: cover;*/
 }
 
 /*#deco
-{}*/
+{
+    background-image: url(../images/decobanner.png);
+    background-size: cover;
+}*/

@@ -1,5 +1,8 @@
 /*body
-{}*/
+{
+    background-image: url(../images/guardlogo.png);
+    background-size: cover;
+}*/
 
 .overview
 {
@@ -16,7 +19,13 @@
 }
 
 /*#jungle
-{}
+{
+    background-image: url(../images/junglebanner.png);
+    background-size: cover;
+}
 
 #rodeo
-{}*/
+{
+    background-image: url(../images/rodeobanner.png);
+    background-size: cover;
+}*/
