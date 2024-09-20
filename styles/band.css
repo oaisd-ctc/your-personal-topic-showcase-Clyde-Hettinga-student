@@ -1,8 +1,8 @@
-/*body
+body
 {
     background-image: url(../images/bandlogo.png);
     background-size: cover;
-}*/
+}
 
 section
 {
@@ -24,21 +24,21 @@ section
     margin-left: .25%;
 }
 
-/*#spirits
+#spirits
 {
-    background-image: url(../images/spiritsbanner.png);
+    background-image: url(../images/spiritsbanner.jpg);
     background-size: cover;
-}*/
+}
 
 #heart
 {
     margin-left: .8%;
-    /*background-image: url(../images/heartbanner.png);
-    background-size: cover;*/
+    background-image: url(../images/heartbanner.jpg);
+    background-size: cover;
 }
 
-/*#deco
+#deco
 {
-    background-image: url(../images/decobanner.png);
+    background-image: url(../images/decobanner.jpg);
     background-size: cover;
-}*/
+}
